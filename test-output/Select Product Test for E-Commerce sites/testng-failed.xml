@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Select Product Test for E-Commerce sites]" parallel="tests">
+  <listeners>
+    <listener class-name="com.suit2.ListenersI"/>
+  </listeners>
+  <test thread-count="2" verbose="2" name="FlipKart Select Product Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.suit1.Flipkart">
+        <methods>
+          <include name="Set_Up"/>
+          <include name="Search_SelectProduct"/>
+          <include name="quit"/>
+          <include name="Login"/>
+          <include name="LogOut"/>
+          <include name="AddtoCart_RemovefromCart"/>
+        </methods>
+      </class> <!-- com.suit1.Flipkart -->
+    </classes>
+  </test> <!-- FlipKart Select Product Test(failed) -->
+  <test thread-count="2" verbose="2" name="Amazon Select Product Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.suit2.Amazon">
+        <methods>
+          <include name="searchAndSelect"/>
+          <include name="setUp"/>
+          <include name="signOut"/>
+          <include name="tearDown"/>
+          <include name="LogIn"/>
+          <include name="buyAndRemovefromCart"/>
+        </methods>
+      </class> <!-- com.suit2.Amazon -->
+    </classes>
+  </test> <!-- Amazon Select Product Test(failed) -->
+</suite> <!-- Failed suite [Select Product Test for E-Commerce sites] -->

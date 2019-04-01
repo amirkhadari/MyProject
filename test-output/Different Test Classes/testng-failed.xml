@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Different Test Classes]">
+  <test thread-count="5" name="Different Testclasses Testing(failed)">
+    <classes>
+      <class name="datadriven.MultipleSession">
+        <methods>
+          <include name="Cred1"/>
+        </methods>
+      </class> <!-- datadriven.MultipleSession -->
+    </classes>
+  </test> <!-- Different Testclasses Testing(failed) -->
+</suite> <!-- Failed suite [Different Test Classes] -->

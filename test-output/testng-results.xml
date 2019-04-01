@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="88340" started-at="2019-04-01T07:26:29Z" finished-at="2019-04-01T07:27:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="88340" started-at="2019-04-01T07:26:29Z" finished-at="2019-04-01T07:27:58Z">
+      <class name="datadriven.HeaderTagChecker">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:datadriven.HeaderTagChecker@4667ae56]" name="setUP" is-config="true" duration-ms="2494" started-at="2019-04-01T07:26:29Z" finished-at="2019-04-01T07:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="ExtractingHeaderTags()[pri:0, instance:datadriven.HeaderTagChecker@4667ae56]" name="ExtractingHeaderTags" duration-ms="85643" started-at="2019-04-01T07:26:32Z" finished-at="2019-04-01T07:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtractingHeaderTags -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:datadriven.HeaderTagChecker@4667ae56]" name="tearDown" is-config="true" duration-ms="165" started-at="2019-04-01T07:27:58Z" finished-at="2019-04-01T07:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- datadriven.HeaderTagChecker -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

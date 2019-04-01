@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>	
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+ 	<suite name="Select Product Test for E-Commerce sites" thread-count="2" parallel="tests" verbose="2" annotations="JDK">
+ 	<listeners>
+				<listener class-name="com.suit2.ListenersI"></listener>
+	</listeners>	
+ 		
+		<test name="FlipKart Select Product Test">
+			<classes>	
+					<class name="com.suit1.Flipkart"/>
+           	</classes>	
+		</test>	
+		<test name="Amazon Select Product Test">	
+			<classes>	
+					<class name="com.suit2.Amazon"/>
+           	</classes>	
+		</test>
+  </suite>

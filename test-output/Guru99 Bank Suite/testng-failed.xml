@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru99 Bank Suite]">
+  <test thread-count="5" name="Guru 99 Bank Login Page Test(failed)">
+    <classes>
+      <class name="datadriven.Guru99BankLoginTest">
+        <methods>
+          <include name="LaunchURL"/>
+          <include name="VerifyLaunchPage"/>
+        </methods>
+      </class> <!-- datadriven.Guru99BankLoginTest -->
+    </classes>
+  </test> <!-- Guru 99 Bank Login Page Test(failed) -->
+</suite> <!-- Failed suite [Guru99 Bank Suite] -->
