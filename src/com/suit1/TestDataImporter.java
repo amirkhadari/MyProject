@@ -15,11 +15,9 @@ public class TestDataImporter {
 	static Sheet sheet;
 	
 	static String TESTDATA_SHEET_PATH ="/home/innoraft/Amir/eclipse-oxygen-workspace/"
-			+ "MyProject/src/com/qa/testdata/gur99data.xlsx";
+			+ "MyProject/src/com/qa/testdata/practicedata.xlsx";
 	
-	static String sheetName = "Sheet2";
-	
-	public static void main(String[] args) throws InvalidFormatException {
+	public static Object[][] getTestData(String sheetName){
 		FileInputStream file = null;
 		try {
 			file = new FileInputStream(TESTDATA_SHEET_PATH);
@@ -30,17 +28,20 @@ public class TestDataImporter {
 			book = WorkbookFactory.create(file);
 		} catch (IOException e) {
 			e.printStackTrace();
-		} 
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		sheet = book.getSheet(sheetName);
 		Object[][] data = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
-		 System.out.println(sheet.getLastRowNum() + "--------" +
-		sheet.getRow(0).getLastCellNum());
+		// System.out.println(sheet.getLastRowNum() + "--------" +
+		// sheet.getRow(0).getLastCellNum());
 		for (int i = 0; i < sheet.getLastRowNum(); i++) {
 			for (int k = 0; k < sheet.getRow(0).getLastCellNum(); k++) {
 				data[i][k] = sheet.getRow(i + 1).getCell(k).toString();
-				System.out.println(data[i][k]);
+				// System.out.println(data[i][k]);
 			}
 		}
+		return data;
 	}
 	
 }

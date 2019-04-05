@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.suit1.NewCustomerForm">
+      <class name="com.suit2.AuthorBio_Redirection">
         <methods>
-          <include name="EnterCredentials"/>
-          <include name="setUp"/>
-          <include name="navigatesNewCustomerPage"/>
+          <include name="validateNodeidTest"/>
+          <include name="tearDown"/>
+          <include name="setUP"/>
         </methods>
-      </class> <!-- com.suit1.NewCustomerForm -->
+      </class> <!-- com.suit2.AuthorBio_Redirection -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

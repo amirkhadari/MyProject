@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="88340" started-at="2019-04-01T07:26:29Z" finished-at="2019-04-01T07:27:58Z">
+  <suite name="Default suite" duration-ms="250650" started-at="2019-04-05T09:06:07Z" finished-at="2019-04-05T09:10:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="88340" started-at="2019-04-01T07:26:29Z" finished-at="2019-04-01T07:27:58Z">
-      <class name="datadriven.HeaderTagChecker">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:datadriven.HeaderTagChecker@4667ae56]" name="setUP" is-config="true" duration-ms="2494" started-at="2019-04-01T07:26:29Z" finished-at="2019-04-01T07:26:32Z">
+    <test name="Default test" duration-ms="250650" started-at="2019-04-05T09:06:07Z" finished-at="2019-04-05T09:10:17Z">
+      <class name="com.suit2.AuthorBio_Redirection">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.suit2.AuthorBio_Redirection@4dfa3a9d]" name="setUP" is-config="true" duration-ms="3764" started-at="2019-04-05T09:06:07Z" finished-at="2019-04-05T09:06:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="ExtractingHeaderTags()[pri:0, instance:datadriven.HeaderTagChecker@4667ae56]" name="ExtractingHeaderTags" duration-ms="85643" started-at="2019-04-01T07:26:32Z" finished-at="2019-04-01T07:27:58Z">
+        <test-method status="PASS" signature="validateNodeidTest()[pri:0, instance:com.suit2.AuthorBio_Redirection@4dfa3a9d]" name="validateNodeidTest" duration-ms="246764" started-at="2019-04-05T09:06:11Z" finished-at="2019-04-05T09:10:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ExtractingHeaderTags -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:datadriven.HeaderTagChecker@4667ae56]" name="tearDown" is-config="true" duration-ms="165" started-at="2019-04-01T07:27:58Z" finished-at="2019-04-01T07:27:58Z">
+        </test-method> <!-- validateNodeidTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.suit2.AuthorBio_Redirection@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="85" started-at="2019-04-05T09:10:17Z" finished-at="2019-04-05T09:10:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- datadriven.HeaderTagChecker -->
+      </class> <!-- com.suit2.AuthorBio_Redirection -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
